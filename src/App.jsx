@@ -62,8 +62,7 @@ export default function SAXCapitalLanding() {
 
   const handleSubscribe = () => {
     if (email) {
-      console.log('Newsletter signup:', email);
-      alert('Thank you for subscribing! You\'ll receive our first research update soon.');
+      window.open(`https://saxcapitalintel.substack.com/subscribe?email=${encodeURIComponent(email)}`, '_blank');
       setEmail('');
     } else {
       alert('Please enter your email address.');
