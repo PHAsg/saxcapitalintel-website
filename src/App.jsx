@@ -422,7 +422,7 @@ export default function SAXCapitalLanding() {
 
           <div className="grid md:grid-cols-3 gap-6">
             <a 
-              href="mailto:contact@saxcapitalintel.com"
+              href="mailto:fil@saxcapitalco.com"
               className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition border border-white/20"
             >
               <Mail size={32} className="mx-auto mb-3" style={{ color: '#7bafd4' }} />
@@ -431,7 +431,7 @@ export default function SAXCapitalLanding() {
             </a>
 
             <a 
-              href="https://linkedin.com/company/saxcapital"
+              href="https://www.linkedin.com/in/philasgedom/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition border border-white/20"
@@ -442,7 +442,7 @@ export default function SAXCapitalLanding() {
             </a>
 
             <a 
-              href="https://calendly.com/saxcapital"
+              href="https://calendly.com/fil-dafb/new-meeting"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition border border-white/20"
