@@ -74,12 +74,12 @@ export default function SAXCapitalLanding() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
+         <a href="#" className="flex items-center gap-3 hover:opacity-80 transition">
             <SAXLogo size={40} color="#0c1e3d" />
             <span className="text-2xl font-bold" style={{ color: '#0c1e3d' }}>
               SAX Capital Intel
             </span>
-          </div>
+          </a>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#research" className="text-gray-700 hover:text-[#7bafd4] transition">Research</a>
             <a href="#journey" className="text-gray-700 hover:text-[#7bafd4] transition">Our Journey</a>
